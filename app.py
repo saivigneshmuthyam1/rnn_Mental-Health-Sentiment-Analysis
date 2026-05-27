@@ -82,8 +82,7 @@ st.markdown("""
 # LOAD MODEL
 # ==========================================
 
-model = load_model(
-    "mental_health_rnn_model.h5"
+model = load_model("mental_health_rnn_model.keras")
 )
 
 # ==========================================
